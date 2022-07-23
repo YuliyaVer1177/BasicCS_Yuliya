@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите число"); 
+﻿//У чисел больше 9 выводить на экран вторую цифру числа с конца
+Console.WriteLine("Введите число"); 
 int a = Convert.ToInt32(Console.ReadLine()); 
 int b = a % 100 / 10;
 if (a <= 9)
