@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Введите число"); 
+﻿//Вывести на экран числа от -N до N
+
+Console.WriteLine("Введите число"); 
 int a = Convert.ToInt32(Console.ReadLine());
 int b = -a;
 int i = b;
