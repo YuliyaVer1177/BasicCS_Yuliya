@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите число");
+﻿//Из трех введенных чисел найти максимальное
+Console.WriteLine("Введите число");
 int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число");
 int b = Convert.ToInt32(Console.ReadLine());
@@ -14,7 +15,7 @@ if (b > a && b > c || b ==c)
 }
 if (c > a && c > b || c == a)
 {
-    Console.WriteLine($"{a}");
+    Console.WriteLine($"{c}");
 }
 if (c == a && c == b)
 {
